@@ -1,0 +1,41 @@
+<resources>
+    <string name="navgiation_drawer_close">Close</string>
+    <string name="navgiation_drawer_open">open</string>
+    <string name="app_name">Linco</string>
+    <string name="Login_title">Login Here</string>
+    <string name="content">The all rights are reserved under the FIB </string>
+    <string name="checkBox">REMEMBER THE USER </string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logintxt">Login to the app</string>
+    <string name="password">Enter the password</string>
+    <string name="userid">Enter the UserId</string>
+    <string name="register">To Register Click Here!</string>
+    <string name="tNc">I agree to the</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tools">Linco Tools</string>
+    <string name="hours">In the last hour</string>
+    <string name="no">23</string>
+    <string name="lastday">Last Date</string>
+    <string name="no2">20</string>
+    <string name="update">Update Now</string>
+    <string name="worker">Workers</string>
+    <string name="daily">Daily Reports</string>
+    <string name="rented">Rented Tools</string>
+    <string name="toolsStat">Last 30 days</string>
+    <string name="additional_title">ADDITIONAL WORK RECORD</string>
+
+
+
+    <string-array name="projectTitle">
+        <item>Dummy 1</item>
+        <item>Dummy 2</item>
+        <item>Dummy 3</item>
+        <item>Dummy 4</item>
+    </string-array>
+</resources>

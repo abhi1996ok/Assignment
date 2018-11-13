@@ -1,0 +1,61 @@
+<resources>
+    <string name="navgiation_drawer_close">Close</string>
+    <string name="navgiation_drawer_open">open</string>
+    <string name="app_name">Linco</string>
+    <string name="Login_title">Login Here</string>
+    <string name="content">The all rights are reserved under the FIB </string>
+    <string name="checkBox">REMEMBER THE USER </string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logintxt">Login to the app</string>
+    <string name="password">Enter the password</string>
+    <string name="userid">Enter the UserId</string>
+    <string name="register">To Register Click Here!</string>
+    <string name="tNc">I agree to the</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tools">Linco Tools</string>
+    <string name="hours">In the last hour</string>
+    <string name="no">23</string>
+    <string name="lastday">Last Date</string>
+    <string name="no2">20</string>
+    <string name="update">Update Now</string>
+    <string name="worker">Workers</string>
+    <string name="daily">Daily Reports</string>
+    <string name="rented">Rented Tools</string>
+    <string name="toolsStat">Last 30 days</string>
+
+    <string name="additional_title">ADDITIONAL WORK RECORD</string>
+    <string name="add_desp_first">Desription Of Work</string>
+    <string name="add_title">Project</string>
+    <string name="add_sub_title">EMPLOYEE NAME NO. OF HOURS</string>
+    <string name="add_used">EQUIPMENT USED TO COMPLETE THIS WORK</string>
+
+
+
+
+    <string-array name="spinTest">
+        <item>SELECT ONE</item>
+        <item>DUMMY 1.0</item>
+        <item>DUMMY 2.0</item>
+        <item>DUMMY 3.0</item>
+    </string-array>
+
+    <string-array name="spinTest1">
+        <item>SELECT ONE</item>
+        <item>DUMMY 1.1</item>
+        <item>DUMMY 2.1</item>
+        <item>DUMMY 3.1</item>
+    </string-array>
+
+    <string-array name="spinTest2">
+        <item>SELECT ONE</item>
+        <item>DUMMY 1.2</item>
+        <item>DUMMY 2.2</item>
+        <item>DUMMY 3.2</item>
+    </string-array>
+</resources>

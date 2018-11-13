@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Dashboard"
+            android:title="DASHBOARD"
+            android:icon="@drawable/dashboard_24dp"/>
+        <item android:id="@+id/DailyReport"
+            android:title="DAILY REPORT"
+            android:icon="@drawable/report"/>
+        <item android:id="@+id/Equipment"
+            android:title="EQUIPMENT"
+            android:icon="@drawable/tools"
+            />
+        <item android:id="@+id/Team"
+            android:title="TEAM"
+            android:icon="@drawable/team"
+            />
+        <item android:id="@+id/Additional"
+            android:title="ADDITIONAL WORK RECORD"
+            android:icon="@drawable/add"/>
+    </group>
+    <item android:title="PURCHASE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="RECEIPTS"
+                      android:id="@+id/receipts"
+                    android:icon="@drawable/receipts"
+                      />
+                <item android:title="PROCUREMENTS"
+                    android:id="@+id/procurement"
+                    android:icon="@drawable/promnt"
+                    />
+            </group>
+        </menu>
+    </item>
+
+</menu>
