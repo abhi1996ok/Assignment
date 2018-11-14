@@ -12,11 +12,11 @@ import android.widget.Spinner;
 
 public class Additional extends Fragment {
 
-    Spinner proSpin;
-    Spinner proSpin1;
-    Spinner proSpin2;
-
+    Spinner proSpin, proSpin1, proSpin2;
     String[] proValues, proValues1, proValues2;
+
+    Spinner Equipment_name, Equipment_count, Equipment_hrs;
+    String[] equiName, equiCount, equiHrs;
 
     @Nullable
     @Override
@@ -44,6 +44,28 @@ public class Additional extends Fragment {
         proSpin.setAdapter(adapter);
         proSpin1.setAdapter(adapter1);
         proSpin2.setAdapter(adapter2);
+
+
+        Equipment_name = v.findViewById(R.id.equipment_name_tab1);
+        Equipment_count = v.findViewById(R.id.equipment_count_tab2);
+        Equipment_hrs = v.findViewById(R.id.equipment_hrs_tab3);
+
+        equiName = getResources().getStringArray(R.array.equip_name);
+        equiCount = getResources().getStringArray(R.array.equip_count);
+        equiHrs = getResources().getStringArray(R.array.equip_hrs);
+
+        ArrayAdapter<String> adapterEqui1 = new ArrayAdapter<String>(this.getActivity(), R.layout.spinner_equi, equiName);
+        adapterEqui1.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+
+        ArrayAdapter<String> adapterEqui2 = new ArrayAdapter<String>(this.getActivity(), R.layout.spinner_equi, equiCount);
+        adapterEqui2.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+
+        ArrayAdapter<String> adapterEqui3 = new ArrayAdapter<String>(this.getActivity(), R.layout.spinner_equi, equiHrs);
+        adapterEqui3.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+
+        Equipment_name.setAdapter(adapterEqui1);
+        Equipment_count.setAdapter(adapterEqui2);
+        Equipment_hrs.setAdapter(adapterEqui3);
 
         return v;
     }
