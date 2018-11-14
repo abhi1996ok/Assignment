@@ -244,7 +244,58 @@
                 android:textSize="15sp"
                 android:textStyle="bold"/>
 
+            <Switch
+                android:id="@+id/toggle_sw1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:checked="false"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="10:00 hrs"
+                android:hint="Number of Hours"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_project_mgr"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Switch
+                android:id="@+id/toggle_sw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:checked="false"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="10:00 hrs"
+                android:hint="Number of Hours"/>
+
+            <Button
+                android:id="@+id/GenerateBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/addi_add_btn"
+                android:background="@drawable/custom_add_button"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:text="@string/gen_report"
+                />
         </LinearLayout>
+
 
     </android.support.v7.widget.CardView>
 
