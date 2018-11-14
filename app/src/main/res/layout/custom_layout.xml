@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+<TableRow>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            android:text="DD/MM/YYYY"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/dowload"
+            android:layout_width="00dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/download"
+            />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/delete"
+            android:layout_width="00dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/delete"
+            />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/preview"
+            android:layout_width="00dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/preview"
+            />
+</TableRow>
+
+</TableLayout>
