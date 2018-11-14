@@ -37,12 +37,13 @@
 
     <!--Additional-->
     <string name="equipment_name">EQUIPMENT \nNAME</string>
-    <string name="add_any_supervision">DID YOU HAVE ANY SUPERVISION TIME INVOLVED IN THIS WORK?</string>
+    <string name="add_any_supervision">DID YOU HAVE ANY SUPERVISION TIME INVOLVED IN THIS WORK ?</string>
     <string name="add_pro_mgr">PROJECT MANAGER TIME INVOLVED IN THIS WORK?</string>
     <string name="no_of_hours">NO. OF HOURS</string>
     <string name="count">COUNT</string>
     <string name="add_another">ADD ANOTHER</string>
-
+    <string name="add_project_mgr">PROJECT MANAGER TIME INVLOVED IN THIS WORK ?</string>
+    <string name="gen_report">GENERATE REPORT</string>
 
 
     <string-array name="spinTest">
