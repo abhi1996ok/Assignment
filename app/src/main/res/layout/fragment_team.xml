@@ -27,13 +27,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team Member"
+                android:text="@string/team_member_title"
                 android:textSize="25sp"
                 android:textStyle="bold"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="With Total Hours Worked"
+                android:text="@string/team_sub_title"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"/>
 
@@ -54,23 +54,27 @@
         app:cardCornerRadius="12dp"
         app:cardElevation="16dp"
         app:contentPadding="15dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add New Member"
+                android:text="@string/second_card_title"
                 android:textSize="25sp"
                 android:textStyle="bold"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fill Details"
+                android:text="@string/second_team_subTitle"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"/>
+
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +84,7 @@
                     android:id="@+id/usernameEdit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Name"
+                    android:hint="@string/team_ed_lable"
                     android:inputType="text" />
             </android.support.design.widget.TextInputLayout>
 
@@ -94,7 +98,7 @@
                     android:id="@+id/passwordEdit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Designation"
+                    android:hint="@string/team_ed1_lable"
                     android:inputType="textWebPassword" />
             </android.support.design.widget.TextInputLayout>
 
@@ -110,10 +114,11 @@
                 android:textStyle="bold"
                 android:paddingRight="15dp"
                 android:paddingLeft="15dp"
-                android:text="Submit"
+                android:text="@string/team_btn_lable"
                 />
 
         </LinearLayout>
+
     </android.support.v7.widget.CardView>
 
 </LinearLayout>

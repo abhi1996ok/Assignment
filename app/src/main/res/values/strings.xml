@@ -44,6 +44,13 @@
     <string name="add_another">ADD ANOTHER</string>
     <string name="add_project_mgr">PROJECT MANAGER TIME INVLOVED IN THIS WORK ?</string>
     <string name="gen_report">GENERATE REPORT</string>
+    <string name="team_member_title">Team Member</string>
+    <string name="team_sub_title">With Total Hours Worked</string>
+    <string name="second_card_title">Add New Member</string>
+    <string name="second_team_subTitle">Fill Details</string>
+    <string name="team_ed_lable">Name</string>
+    <string name="team_ed1_lable">Designation</string>
+    <string name="team_btn_lable">Submit</string>
 
 
     <string-array name="spinTest">
