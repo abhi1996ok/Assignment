@@ -11,9 +11,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class CustomAdapter extends ArrayAdapter {
-    Context mContext;
+
     Activity activity;
-    String name[];
+    String[] name;
 
     public CustomAdapter(Activity activity, String name[])
     {
