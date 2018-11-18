@@ -51,6 +51,7 @@
     <string name="team_ed_lable">Name</string>
     <string name="team_ed1_lable">Designation</string>
     <string name="team_btn_lable">Submit</string>
+    <string name="splash_screen">App Logo</string>
 
 
     <string-array name="spinTest">
