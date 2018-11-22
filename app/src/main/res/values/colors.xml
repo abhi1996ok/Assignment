@@ -2,12 +2,12 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303f9f</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="cardback">#000000</color>
+    <color name="colorAccent">#be8b12</color>
+    <color name="cardback">#fffafa</color>
     <color name="layoutBack">#2baefa</color>
     <color name="layoutBackk">#4C4C4C</color>
     <color name="layoutText">#efaeaba9</color>
-    <color name="imgback">#FFFFFF</color>
+    <color name="imgback">#000000</color>
 
 
     <color name="add_view">#F4F5F6</color>

@@ -13,20 +13,16 @@
         <activity
             android:name=".SplashActivity"
             android:configChanges="orientation"
-<<<<<<< HEAD
+            android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait">
-=======
-            android:screenOrientation="nosensor"
-            android:theme="@style/AppTheme.NoActionBar">
 
->>>>>>> 8ffd1643f0cace8b9ed6ee8e503204a674e15d0b
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
+
         <activity android:name=".RegisterPage"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation"
@@ -35,22 +31,16 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation"
             android:screenOrientation="portrait"></activity>
-=======
+
 
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
-        <activity
-            android:name=".RegisterPage"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity
-            android:name=".Home"
-            android:theme="@style/AppTheme.NoActionBar" />
 
 
->>>>>>> 8ffd1643f0cace8b9ed6ee8e503204a674e15d0b
+
+
     </application>
 
 </manifest>

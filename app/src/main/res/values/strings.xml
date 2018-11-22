@@ -97,4 +97,32 @@
         <item>DUMMY 3.2</item>
     </string-array>
 
+    <!-- PROCUREMENT AND RECEIPTS -->
+    <string name="imgView_string">Image of Receipt</string>
+    <string name="imgView2_string">Image of Goods</string>
+    <string name="purchace_detail">Details of Purchase</string>
+    <string name="fill_details">Fill the Details</string>
+    <string name="edtTxthint1">Enter Details of Products</string>
+    <string name="edtTxthint2">Date of Purchase</string>
+    <string-array name="goods_category">
+        <item>SELECT ONE</item>
+        <item>DUMMY 1.0</item>
+        <item>DUMMY 2.0</item>
+        <item>DUMMY 3.0</item>
+        <item>DUMMY 1.0</item>
+        <item>DUMMY 2.0</item>
+        <item>DUMMY 3.0</item>
+        <item>DUMMY 1.0</item>
+        <item>DUMMY 2.0</item>
+        <item>DUMMY 3.0</item>
+    </string-array>
+
+    <string-array name="purchace_count">
+        <item>SELECT ONE</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>
