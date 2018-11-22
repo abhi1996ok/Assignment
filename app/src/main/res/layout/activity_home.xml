@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/cardback"
+            android:background="@color/imgback"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
@@ -35,5 +35,9 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_head"
-        app:menu="@menu/drawer_menu" />
+        app:itemIconTint="@android:color/background_light"
+        app:itemTextColor="@android:color/background_light"
+        app:itemBackground="@drawable/highlight_menu_item"
+        app:menu="@menu/drawer_menu"
+        android:background="@color/imgback"/>
 </android.support.v4.widget.DrawerLayout>
